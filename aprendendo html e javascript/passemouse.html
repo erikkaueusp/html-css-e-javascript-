@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Passe o Mouse.</title>
+</head>
+
+<style type="text/css">
+	.estado{
+   width: 300px;
+   height: 100px;
+   background: blue;
+   position: relative;
+   margin: 3px;
+}
+
+.estado:hover span{
+   display: inline-block;
+}
+
+.estado span{
+   display: none;
+   padding: 5px;
+   background: white;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+
+</style>
+
+
+
+<body>
+
+	<!-- passe o mouse -->
+<div class="estado">
+   <span>Distrito Federal</span>
+</div>
+<div class="estado">
+   <span>São Paulo</span>
+</div>
+
+</body>
+</html>
